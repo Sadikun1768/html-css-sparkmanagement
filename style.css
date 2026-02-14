@@ -766,3 +766,64 @@ p {
   width: 10px;
 }
 /* Footer Section*/
+
+/*Responsive*/
+@media (max-width: 768px) {
+  /*  reason*/
+  .reason-item {
+    /* padding: 20px 20px; */
+    text-align: center;
+}
+.reason-gird {
+  display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ /*  reason*/
+
+ /*who*/
+ .who-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .who-text p {
+    text-align: center;
+    padding: 10px 20px;
+    justify-content: center;
+    font-size: 12px;
+    list-style: none;
+  }
+
+  .who-img img {
+    width: 300px;
+    height: 300px;
+  }
+ /*who*/
+ /*team*/
+ .team-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+    gap: 5px;
+   
+}
+.team-item {
+   padding-right: 10px;
+}
+ /*team*/
+
+ /*testmonial*/
+.testmnl-sec {
+    background: gainsboro;
+    padding: 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+    background: rgb(35, 179, 208);
+    height: 20%;
+}
+
+ /*testmonial*/
+}
+/*Responsive*/
