@@ -768,15 +768,76 @@ p {
 /* Footer Section*/
 
 /*Responsive*/
+@media (max-width: 576px) {
+.bscope-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    gap: 10px;
+}
+/* vision */
+.our-vision {
+    background: white;
+     display: grid; 
+     grid-template-columns: 1fr;
+    /* padding: 20px 10px; */
+}
+
+.divider {
+   display: block;
+}
+/* vision */
+/* testmnl */
+.testmnl-sec {
+    background: gainsboro;
+    padding: 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(35, 179, 208);
+    height: 20%;
+}
+/* testmnl*/
+/* service*/
+.service-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+/* service*/
+
+/* foot*/
+.foot-sec {
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2px;
+}
+.footer-address ul li {
+    
+    font-size: 20px;
+   
+}
+/* foot*/
+}
 @media (max-width: 768px) {
+  /* menu*/
+  .menu {
+     list-style: none;
+     display: block; 
+     font-size: 10px;
+     align-items: center;
+    justify-content: center;
+    background: rgb(8, 45, 115); 
+}
+  /* menu*/
   /*  reason*/
   .reason-item {
     /* padding: 20px 20px; */
     text-align: center;
 }
 .reason-gird {
-  display: flex;
-    align-items: center;
+  display: grid;
+ grid-template-columns: 3fr;
     gap: 10px;
 }
  /*  reason*/
@@ -784,7 +845,7 @@ p {
  /*who*/
  .who-item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .who-text p {
@@ -813,17 +874,24 @@ p {
 }
  /*team*/
 
+ /*vision*/
+ vision
+ /*team*/
+
  /*testmonial*/
 .testmnl-sec {
     background: gainsboro;
     padding: 5px 5px;
     display: grid;
     grid-template-columns: 1fr;
- 
     background: rgb(35, 179, 208);
     height: 20%;
 }
 
  /*testmonial*/
+
+ @media (max-width: 992px) {
+
+ }
 }
 /*Responsive*/
